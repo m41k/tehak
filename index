@@ -2,5 +2,6 @@
 echo -e "Content-type: text/html\n\n"
 #teste=`echo "y" | travis`
 echo "<pre>"
+export $HOME=/app
 echo $HOME
 travis
