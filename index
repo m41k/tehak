@@ -5,4 +5,5 @@ echo "<pre>"
 #export HOME=/app
 echo $HOME
 whoami
+touch novo
 ls
