@@ -13,7 +13,7 @@ unless File.exists?(cgi_script)
   exit 1
 end
 
-server = WEBrick::HTTPServer.new(:Port => 80)
+server = WEBrick::HTTPServer.new(:Port => ARGV[1])
 server.mount('/', WEBrick::HTTPServlet::CGIHandler, File.expand_path(ARGV[0]))
 
 trap("INT"){ server.shutdown }
