@@ -3,4 +3,4 @@ echo -e "Content-type: text/html\n\n"
 #teste=`echo "y" | travis`
 echo "<pre>"
 export HOME=/tmp
-travis
+/app/vendor/bundle/bin/travis
