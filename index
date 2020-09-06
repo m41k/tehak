@@ -5,3 +5,4 @@ echo "<pre>"
 #export HOME=/app
 echo $HOME
 whoami
+ls
