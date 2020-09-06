@@ -1,3 +1,4 @@
 #!/bin/bash
 echo -e "Content-type: text/html\n\n"
+export HOME=/tmp
 echo "y" | vendor/bundle/bin/travis
