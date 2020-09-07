@@ -6,4 +6,4 @@ echo "<pre>"
 PWD=`pwd`
 export HOME=$PWD
 echo $HOME
-travis
+/app/vendor/bundle/bin/travis
