@@ -15,4 +15,4 @@ cat <<EOF
 </form>
 EOF
 #echo "$FORM_HEROKU" "$FORM_GITHUB"
-travis "$FORM_HEROKU -r $FORM_GITHUB
+travis $FORM_HEROKU -r $FORM_GITHUB
