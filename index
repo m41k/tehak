@@ -2,6 +2,8 @@
 eval `./proccgi $*`
 echo -e "Content-type: text/html\n\n"
 echo "<pre>"
+export PATH=$PATH:/app/vendor/bundle/bin:/app/vendor/bundle/ruby/2.6.0/bin
+travis
 #teste=`echo "y" | travis`
 #PWD=`pwd`
 #export HOME=$PWD
@@ -10,11 +12,11 @@ echo "<pre>"
 #/app/vendor/bundle/bin/travis
 #echo $QUERY_STRING
 
-bash -c "$FORM_teste"
-cat <<EOF
-<form action="index" method="post">  
-Enter some text here:
-<input type="text" name="teste" size=30>
-<input type="submit"><p>
-</form>
-EOF
+#bash -c "$FORM_teste"
+#cat <<EOF
+#<form action="index" method="post">  
+#Enter some text here:
+#<input type="text" name="teste" size=30>
+#<input type="submit"><p>
+#</form>
+#EOF
