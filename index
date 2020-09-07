@@ -3,8 +3,9 @@ echo -e "Content-type: text/html\n\n"
 #teste=`echo "y" | travis`
 echo "<pre>"
 #!/bin/bash
-PWD=`pwd`
-export HOME=$PWD
-echo $HOME
-ls -la
+#PWD=`pwd`
+#export HOME=$PWD
+#echo $HOME
+#ls -la
 #/app/vendor/bundle/bin/travis
+echo $QUERY_STRING
