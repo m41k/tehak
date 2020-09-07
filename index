@@ -1,7 +1,7 @@
 #!/bin/bash
 eval `proccgi $*`
 echo -e "Content-type: text/html\n\n"
-echo "<pre>
+echo "<pre>"
 #teste=`echo "y" | travis`
 #PWD=`pwd`
 #export HOME=$PWD
