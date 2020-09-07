@@ -1,1 +1,1 @@
-web: chmod +x index; ruby server.rb index $PORT
+web: chmod +x index proccgi; ruby server.rb index $PORT
