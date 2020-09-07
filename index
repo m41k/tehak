@@ -8,4 +8,9 @@ echo "<pre>"
 #echo $HOME
 #ls -la
 #/app/vendor/bundle/bin/travis
-echo $QUERY_STRING
+#echo $QUERY_STRING
+<form action="." method="GET">  
+Enter some text here:
+<input type="text" name="sample_text" size=30>
+<input type="submit"><p>
+</form>
