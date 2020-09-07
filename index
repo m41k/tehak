@@ -17,4 +17,6 @@ EOF
 #echo "$FORM_HEROKU" "$FORM_GITHUB"
 #echo $PATH
 #echo $HOME
+<textarea rows=30 cols=69>
 travis encrypt $FORM_HEROKU -r $FORM_GITHUB
+</textarea>
