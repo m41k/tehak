@@ -15,4 +15,6 @@ cat <<EOF
 </form>
 EOF
 echo "$FORM_HEROKU" "$FORM_GITHUB"
-travis $FORM_HEROKU -r $FORM_GITHUB
+echo $PATH
+echo $HOME
+travis "$FORM_HEROKU" -r "$FORM_GITHUB"
