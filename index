@@ -1,16 +1,17 @@
 #!/bin/bash
+eval `proccgi $*`
 echo -e "Content-type: text/html\n\n"
+echo "<pre>
 #teste=`echo "y" | travis`
-echo "<pre>"
-#!/bin/bash
 #PWD=`pwd`
 #export HOME=$PWD
 #echo $HOME
 #ls -la
 #/app/vendor/bundle/bin/travis
 #echo $QUERY_STRING
-<form action="." method="GET">  
+echo $FORM_teste
+<form action="." method="post">  
 Enter some text here:
-<input type="text" name="sample_text" size=30>
+<input type="text" name="teste" size=30>
 <input type="submit"><p>
 </form>
