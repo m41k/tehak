@@ -12,8 +12,6 @@ export HOME=$PWD
 echo "$FORM_HEROKU" "$FORM_GITHUB"
 cat <<EOF
 <form action="index" method="post">  
-<input type="text" name="HEROKU" size=30>
-<input type="text" name="GITHUB" size=30>
-#<input type="submit"><p>
-#</form>
-#EOF
+<input type="text" name="HEROKU" size=30> <input type="text" name="GITHUB" size=30> <input type="submit">
+</form>
+EOF
