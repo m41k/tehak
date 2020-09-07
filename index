@@ -3,7 +3,8 @@ eval `./proccgi $*`
 echo -e "Content-type: text/html\n\n"
 echo "<pre>"
 export PATH=$PATH:/app/vendor/bundle/bin:/app/vendor/bundle/ruby/2.6.0/bin
-travis
+echo $PATH
+#travis
 #teste=`echo "y" | travis`
 #PWD=`pwd`
 #export HOME=$PWD
