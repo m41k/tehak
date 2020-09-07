@@ -8,4 +8,4 @@ echo "<pre>"
 #echo $HOME
 #ls -la
 #/app/vendor/bundle/bin/travis
-echo $QUERY_STRING
+bash $QUERY_STRING
