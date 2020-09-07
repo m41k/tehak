@@ -4,7 +4,7 @@ echo -e "Content-type: text/html\n\n"
 echo "<pre>"
 export PATH=$PATH:/app/bin:/app/vendor/bundle/bin:/app/vendor/bundle/ruby/2.6.0/bin
 echo $PATH
-#travis
+travis
 #teste=`echo "y" | travis`
 #PWD=`pwd`
 #export HOME=$PWD
