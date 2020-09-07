@@ -1,5 +1,5 @@
 #!/bin/bash
-eval `proccgi $*`
+eval `./proccgi $*`
 echo -e "Content-type: text/html\n\n"
 echo "<pre>"
 #teste=`echo "y" | travis`
