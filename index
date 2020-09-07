@@ -2,5 +2,5 @@
 echo -e "Content-type: text/html\n\n"
 #teste=`echo "y" | travis`
 echo "<pre>"
-pwd
-echo $HOME
+PWD=`pwd`
+export $HOME=$PWD
