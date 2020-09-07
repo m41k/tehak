@@ -9,9 +9,12 @@ echo "<pre>
 #ls -la
 #/app/vendor/bundle/bin/travis
 #echo $QUERY_STRING
+
 echo $FORM_teste
+cat <<EOF
 <form action="." method="post">  
 Enter some text here:
 <input type="text" name="teste" size=30>
 <input type="submit"><p>
 </form>
+EOF
