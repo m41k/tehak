@@ -18,7 +18,6 @@ cat <<EOF
 </form>
 EOF
 echo "Encrypted key - add to travis.yml"
-echo "<br>"
 echo "<textarea rows=30 cols=69>"
 travis encrypt $FORM_HEROKU -r $FORM_GITHUB
 echo "</textarea>"
