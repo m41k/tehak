@@ -6,17 +6,18 @@ export PATH=/app/bin:/app/vendor/bundle/bin:/app/vendor/bundle/ruby/2.6.0/bin:/u
 #echo $PATH
 PWD=`pwd`
 export HOME=$PWD
-#echo $HOME
-#travis
-#bash -c "$FORM_teste"
 cat <<EOF
 <form action="index" method="post">  
-<input type="text" name="HEROKU" size=30> <input type="text" name="GITHUB" size=30> <input type="submit">
+<table>
+<td>HEROKU API KEY</td><td>REPO/NAME</td>
+<tr>
+<td><input type="text" name="HEROKU" size=30></td>
+<td><input type="text" name="GITHUB" size=30> <input type="submit"></td>
+</tr>
 </form>
 EOF
-#echo "$FORM_HEROKU" "$FORM_GITHUB"
-#echo $PATH
-#echo $HOME
+echo "Encrypted key - add to travis.yml"
+echo "<br>"
 echo "<textarea rows=30 cols=69>"
 travis encrypt $FORM_HEROKU -r $FORM_GITHUB
 echo "</textarea>"
